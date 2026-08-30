@@ -24,7 +24,7 @@ export default function Home() {
       {/* Imagen de principal */}
       <div className="relative flex h-screen w-full max-w-7xl items-center justify-center gap-3 px-2 lg:px-10">
         <div className="hidden flex-col items-start justify-center gap-5 lg:flex lg:max-w-137.5 lg:flex-1">
-          <div className="flex items-center justify-start gap-3 text-3xl text-white">
+          <div className="flex items-stretch justify-start gap-3 text-3xl text-white">
             <Image
               src="/images/main-logo-dark.png"
               alt="Logo"
@@ -32,7 +32,10 @@ export default function Home() {
               height={120}
               priority
             />
-            <span className="text-2x flex font-bold">| TASK</span>
+
+            <span className="flex flex-1 my-6 items-center border-l-3 border-white p-5 text-2xl font-bold">
+              TASK
+            </span>
           </div>
 
           <span className="flex text-[20px] font-bold text-white">
