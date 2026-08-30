@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans   , Geist_Mono, Manrope } from "next/font/google";
+import { Plus_Jakarta_Sans, Geist_Mono, Manrope } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { ThemeProvider } from "@/components/ui/theme-provider";
 
-const manropeHeading = Manrope({subsets:['latin'],variable:'--font-heading'});
+const manropeHeading = Manrope({
+  subsets: ["latin"],
+  variable: "--font-heading",
+});
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -28,9 +32,25 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn("h-full", "antialiased", plusJakarta.variable, geistMono.variable, manropeHeading.variable)}
+      className={cn(
+        "h-full",
+        "antialiased",
+        plusJakarta.variable,
+        geistMono.variable,
+        manropeHeading.variable,
+      )}
+      suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="flex min-h-full flex-col">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
