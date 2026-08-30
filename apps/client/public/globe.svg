@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="1024" viewBox="0 0 1280 1024" xml:space="preserve">
+<desc>Created with Fabric.js 5.3.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 640 512)" id="background-logo"  >
+<rect style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  x="-640" y="-512" rx="0" ry="0" width="1280" height="1024" />
+</g>
+<g transform="matrix(2.091567525771135 0 0 2.091567525771135 640 408.17971159507965)" id="logo-logo"  >
+<g style=""  paint-order="stroke"   >
+		<g transform="matrix(1.120368516334662 0 0 1.1203685163346622 0 0)"  >
+<g style=""  paint-order="stroke"   >
+		<g transform="matrix(1 0 0 1 0 0)"  >
+<linearGradient id="SVGID_44074" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 -0.0000488283538544465)"  x1="0" y1="0" x2="0" y2="178">
+<stop offset="0%" style="stop-color:rgb(66,230,149);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(59,178,184);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_44074); fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  transform=" translate(-89, -88.9999987756079)" d="M 11.45 132.73 C 10.45 130.98999999999998 9.53 129.2 8.66 127.38999999999999 L 169.34 127.38999999999999 C 168.47 129.2 167.54 130.98999999999998 166.55 132.73 L 11.45 132.73 M 15.239999999999998 138.85999999999999 L 162.76 138.85999999999999 C 163.56 137.67999999999998 164.32999999999998 136.48 165.07999999999998 135.24999999999997 L 12.92 135.24999999999997 C 13.67 136.47999999999996 14.44 137.67999999999998 15.24 138.85999999999999 M 7.51 124.85999999999999 L 170.51 124.85999999999999 Q 171.29 123.07999999999998 172.01 121.25999999999999 L 6 121.25999999999999 Q 6.72 123.07999999999998 7.5 124.85999999999999 M 89 178 C 117.48688102916886 178.02906033771137 144.26111866667594 164.40022965139698 161 141.34999999999997 L 17 141.35 C 33.7410657018031 164.39767150748236 60.513902027792724 178.02578888730898 89.00000000000003 178 M 89 0 C 62.699466664506566 -0.024784815527626906 37.74098023768097 11.610301226735753 20.849999999999994 31.77000000000001 L 157.15 31.77 C 140.26074724530363 11.60805149818211 115.30114573090896 -0.027554372871712474 88.99999999999997 1.0658141036401503e-14 M 4.23 116.23 L 173.77 116.23 Q 174.83 112.91000000000001 175.64000000000001 109.5 L 2.36 109.5 Q 3.17 112.92 4.23 116.23 M 172.78 58.91 L 5.22 58.91 C 3.7295501991500632 63.05660268428653 2.5496278249889412 67.3083342988275 1.6900000000000128 71.63 L 176.31 71.63 C 175.45037217501107 67.3083342988275 174.27044980084995 63.056602684286574 172.78000000000003 58.91000000000004 M 0 89.93 C 0.04580467817299938 94.80152639229186 0.4906257332576338 99.66111280611133 1.3299999999999983 104.46000000000006 L 176.67 104.46000000000001 C 177.50937426674236 99.66111280611129 177.954195321827 94.80152639229185 178 89.93000000000002 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+		<g transform="matrix(0.684715076039399 0 0 0.684715076039399 0 -0.5382989266581149)"  >
+<g style=""  paint-order="stroke"   >
+		<g transform="matrix(1 0 0 1 0 0)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(39,18,104); fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  transform=" translate(-100, -100)" d="M 200 100 C 200 155.22847498307934 155.22847498307934 200 100 200 C 44.771525016920656 200 0 155.22847498307934 0 100 C 0 44.771525016920656 44.771525016920656 0 100 0 C 155.22847498307934 0 200 44.77152501692063 200 99.99999999999997 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="matrix(1.9211538461538462 0 0 1.9211538461538462 640.4490697115385 702.8965841295623)" id="text-logo"  >
+<g style=""  paint-order="stroke"   >
+		<g transform="matrix(1 0 0 1 0 0)" id="text-logo-path-0"  >
+<linearGradient id="SVGID_44075" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 1.8499999999999979 -37.1)"  x1="-1.8550000000000182" y1="-9.494419999999991" x2="-1.8550000000000182" y2="50.50558000000001">
+<stop offset="0%" style="stop-color:rgb(66,230,149);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(59,178,184);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_44075); fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  transform=" translate(-33.254999999999995, 18.55)" d="M 8.21 0 L 8.21 -22.37 L 15.42 -3.18 L 22.74 -3.18 L 29.95 -22.37 L 29.95 0 L 36.3 0 L 36.3 -37.1 L 28.67 -37.1 L 19.08 -11.55 L 9.49 -37.1 L 1.85 -37.1 L 1.85 0 Z M 64.66 -6.36 L 59.36 -6.36 C 52.2 -6.36 47.17 -11.39 47.17 -18.6 C 47.17 -25.7 52.2 -30.74 59.36 -30.74 L 64.66 -30.74 L 64.66 -37.1 L 59.36 -37.1 C 49.13 -37.1 40.81 -28.78 40.81 -18.6 C 40.81 -8.32 49.13 0 59.36 0 L 64.66 0 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+<g transform="matrix(1.9211538461538462 0 0 1.9211538461538462 638.4484395319694 413.7163226251535)" id="tagline-ed433f30-1a09-4b10-830a-6e410561f5d2-logo"  >
+<g style=""  paint-order="stroke"   >
+		<g transform="matrix(1 0 0 1 0 0)" id="tagline-ed433f30-1a09-4b10-830a-6e410561f5d2-logo-path-0"  >
+<linearGradient id="SVGID_44076" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 3.2900000000000027 -65.8)"  x1="-3.2900000000000205" y1="-16.839159999999964" x2="-3.2900000000000205" y2="89.16084000000004">
+<stop offset="0%" style="stop-color:rgb(66,230,149);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(59,178,184);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_44076); fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  transform=" translate(-33.84, 32.9)" d="M 14.57 0 L 14.57 -39.67 L 27.35 -5.64 L 40.33 -5.64 L 53.11 -39.67 L 53.11 0 L 64.39 0 L 64.39 -65.8 L 50.85 -65.8 L 33.84 -20.49 L 16.83 -65.8 L 3.29 -65.8 L 3.29 0 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

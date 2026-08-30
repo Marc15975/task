@@ -1,0 +1,12 @@
+# Dependencias
+node_modules/
+dist/
+
+# Variables de entorno
+.env
+
+# Si no quieres versionar estos archivos
+pnpm-lock.yaml
+
+
+/src/generated/prisma
