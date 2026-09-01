@@ -1,0 +1,31 @@
+? Verifying lockfile against supply-chain policies (251 entries)...
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +250
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: C:\Users\Usuario\.pnpm\store\v11
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 250, reused 250, downloaded 0, added 151
+Progress: resolved 250, reused 250, downloaded 0, added 249
+Progress: resolved 250, reused 250, downloaded 0, added 250, done
+✓ Lockfile passes supply-chain policies (251 entries in 5s)
+
+dependencies:
++ @prisma/adapter-pg 7.8.0
++ @prisma/client 7.8.0
++ dotenv 17.4.2
++ dotenv-expand 13.0.0
++ express 5.2.1
++ pg 8.22.0
+
+devDependencies:
++ @types/express 5.0.6
++ @types/node 26.1.0
++ prisma 7.8.0
++ ts-node-dev 2.0.0
++ tsconfig-paths 4.2.0
++ typescript 6.0.3
+
+Done in 5.8s using pnpm v11.25.0
+$ tsc
