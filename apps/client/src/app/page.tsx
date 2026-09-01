@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image, { getImageProps } from "next/image";
 import { Switch } from "@/components/ui/switch";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { useState } from "react";
@@ -8,18 +8,45 @@ import { useState } from "react";
 import Google from "./_login/Google";
 import Form from "./_login/Form";
 import { ModeToggle } from "@/components/ui/mode-toggle";
+import Loading from "@/components/ui/loading";
 
 export default function Home() {
   const [authMethod, setAuthMethod] = useState<boolean>(false);
+  const commonBackgroundProps = {
+    alt: "Fondo de login",
+    sizes: "100vw",
+    priority: true,
+  };
+  const {
+    props: { srcSet: desktopBackgroundSrcSet },
+  } = getImageProps({
+    ...commonBackgroundProps,
+    src: "/images/login1.jpg",
+    width: 5051,
+    height: 3367,
+    quality: 85,
+  });
+  const { props: mobileBackgroundProps } = getImageProps({
+    ...commonBackgroundProps,
+    src: "/images/login-mobile.png",
+    width: 941,
+    height: 1672,
+    quality: 85,
+  });
 
   return (
     <main className="relative flex min-h-screen items-center justify-center">
-      <Image
-        src="/images/login1.jpg"
-        alt="Fondo de login"
-        fill
-        className="object-cover object-[29%_30%]"
-      />
+      <picture>
+        <source
+          media="(min-width: 768px)"
+          srcSet={desktopBackgroundSrcSet}
+          sizes="100vw"
+        />
+        <img
+          {...mobileBackgroundProps}
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+      </picture>
 
       {/* Imagen de principal */}
       <div className="relative flex h-screen w-full max-w-7xl items-center justify-center gap-3 px-2 lg:px-10">
@@ -33,7 +60,7 @@ export default function Home() {
               priority
             />
 
-            <span className="flex flex-1 my-6 items-center border-l-3 border-white p-5 text-2xl font-bold">
+            <span className="my-6 flex flex-1 items-center border-l-3 border-white p-5 text-2xl font-bold">
               TASK
             </span>
           </div>
@@ -46,7 +73,8 @@ export default function Home() {
         </div>
 
         <Card className="flex min-h-90 w-full lg:max-w-137.5">
-          <CardContent className="flex flex-1 flex-col justify-center">
+          <CardContent className="relative flex flex-1 flex-col justify-center">
+            {/* <Loading extraClassName="absolute  " />*/}
             <div className="flex flex-col">
               <div className="flex justify-end">
                 <ModeToggle />
